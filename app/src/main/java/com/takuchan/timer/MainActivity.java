@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
     Button startbutton, stopbutton;
 
 
+
+
     private SimpleDateFormat dataFormat =
             new SimpleDateFormat("mm:ss.SSS", Locale.US);
 
@@ -37,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
         startbutton = (Button) findViewById(R.id.button);
         stopbutton = (Button) findViewById(R.id.button2);
+
 
         countertext = (TextView) findViewById(R.id.textView);
         countertext.setText(dataFormat.format(0));
