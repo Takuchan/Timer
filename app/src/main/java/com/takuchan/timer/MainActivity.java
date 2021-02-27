@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
         switch (itemId) {
             case R.id.settimer:
 
-                Intent intent = new Intent(MainActivity.this,SettingTimer.class);
+                Intent intent = new Intent(MainActivity.this,SettingAlerm.class);
                 startActivity(intent);
                 //処理１
                 break;
